@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
     name="django-assets-tags",
@@ -8,7 +8,6 @@ setup(
     license="MIT",
     description="Reusable Django template tags for public and private asset URLs.",
     author="Akib Kamani",
-    author_email="your-email@example.com",  # Replace with your email
     url="https://github.com/akibkamani/django-assets-tags",
     classifiers=[
         "Framework :: Django",
@@ -17,6 +16,6 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "Django>=3.0",
+        "Django>=5.0",
     ],
 )
