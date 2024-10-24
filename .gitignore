@@ -1,0 +1,36 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+.Python
+
+# Virtual Environments
+venv/
+env/
+*.env
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# Byte-compiled files
+*.swp
+*.swo
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# IDEs and Editors
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
