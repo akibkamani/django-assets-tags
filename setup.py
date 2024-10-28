@@ -16,6 +16,6 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "Django>=5.0",
+        "Django>=4.2",
     ],
 )
